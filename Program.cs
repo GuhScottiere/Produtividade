@@ -18,5 +18,19 @@ class Program
        Console.WriteLine($" X:{x} Y: {y}");
        Console.WriteLine();
 
+       Console.WriteLine("Empregando operador de atribuição subtração");
+       x -= y;
+       Console.WriteLine($" X; {x} Y: {y}");
+       Console.WriteLine();
+
+       Console.WriteLine("Empregando operador de atribuição de multiplicação");
+       x*=y;
+       Console.WriteLine();
+
+       Console.WriteLine("Operação de atribuição de divisão");
+       x/=y;
+       Console.WriteLine($" X:{x} y:{y}");
+       Console.WriteLine();
+
     }
 }
