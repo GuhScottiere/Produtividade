@@ -13,5 +13,10 @@ class Program
       Console.WriteLine($" X: {x} y: {y}");
       Console.WriteLine();
 
+      Console.WriteLine("empregando operador de atribuição soma ");
+       x+= y;
+       Console.WriteLine($" X:{x} Y: {y}");
+       Console.WriteLine();
+
     }
 }
